@@ -4,7 +4,7 @@
     $GLOBALS["config"]["mysql"]['host'] for exemple to access host, but this is somewhat messy, we need to build 
     Config class so that we can access our config in a super easy way using forward slash manner like:
     
-        echo Config::get('mysql/host'); // Output: 127.0.0.1
+        echo Config::get('mysql/host'); // Output: localhost
     */
     
     namespace classes;
